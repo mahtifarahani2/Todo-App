@@ -53,9 +53,9 @@ const App = () => {
             <section className="bg-orange mx-auto w-2/3 h-full mt-2 rounded-md p-2">
                 <div className="flex justify-center flex-col space-y-2">
                     <p className="flex items-center justify-center p-3 ">
-                        <p className="bg-purple w-8 rounded-full p-1 text-white text-center mr-2">
+                        <span className="bg-purple w-8 rounded-full p-1 text-white text-center mr-2">
                             {getJobs.length}
-                        </p>
+                        </span>
                         work not done!
                     </p>
                     <textarea
